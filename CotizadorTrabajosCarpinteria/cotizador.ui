@@ -6,14 +6,314 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>588</width>
+    <height>424</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Madelar</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="lista">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>351</width>
+      <height>361</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtTotal">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>380</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TOTAL $</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbMontoTotal">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>380</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>201</width>
+      <height>83</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="btnAgregar">
+       <property name="text">
+        <string>Agregar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnEditar">
+       <property name="text">
+        <string>Editar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnEliminar">
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>310</y>
+      <width>201</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QRadioButton" name="rbCepillado">
+       <property name="text">
+        <string>Cepillado</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="rbFlete">
+       <property name="text">
+        <string>Flete</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>130</y>
+      <width>201</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="verticalSpacing">
+      <number>22</number>
+     </property>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbEspesor">
+       <property name="text">
+        <string>Espesor</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="cbEspesor">
+       <item>
+        <property name="text">
+         <string>1&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4&quot;</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbAncho">
+       <property name="text">
+        <string>Ancho</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="cbAncho">
+       <item>
+        <property name="text">
+         <string>1&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>7&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11&quot;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>12&quot;</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="lblargo">
+       <property name="text">
+        <string>Largo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="cbLargo">
+       <item>
+        <property name="text">
+         <string>1.00 metro/s</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2.20 metro/s</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3.30 metro/s</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4.00 metro/s</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4.50 metro/s</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Otro.</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbTipo">
+       <property name="text">
+        <string>Tipo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="cbTipo">
+       <item>
+        <property name="text">
+         <string>Pino</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cedro</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Paraiso</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Algarrobo</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
  </widget>
  <resources/>
  <connections/>
